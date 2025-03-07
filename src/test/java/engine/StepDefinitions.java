@@ -20,6 +20,7 @@ public class StepDefinitions {
 	@When("send request")
 	public void send_request() {
 		try {
+			//Calling api along with response specification to check status code in 500 range
 			response = Hooks.requestSpec.when().get(apiendPoint).then().spec(Hooks.res.build()).log().all().extract().response();
 		} 
 		catch (AssertionError e) {
@@ -44,7 +45,7 @@ public class StepDefinitions {
 	@Then("response code should be <{int}>")
 	public void response_code_should_be(Integer int1) {
 		try {
-
+//Assertion to check status code
 			Assert.assertTrue(response.getStatusCode() == int1);
 
 		} catch (Exception e) {
