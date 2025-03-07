@@ -686,3 +686,142 @@ server-timing: cfL4;desc="?proto=TCP&rtt=183035&min_rtt=150672&rtt_var=79619&sen
     "message": "Not Found",
     "code": 404
 }
+HTTP/1.1 200 OK
+Date: Fri, 07 Mar 2025 09:01:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 94
+access-control-allow-origin: *
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InlyaWFaZktNaWZWOUVIc2dqZ3E1L3c9PSIsInZhbHVlIjoiKzhjZm42K0Ivd0VYY2cwZ1NzV2hXYWVlODFHVktTOW5JODRsSU44c0NIalFDVisyc09SbjJweVJvRDJDVTB0VEwvSjBFMWJjTWxwYTU4RnVWL04wVDRiaE9HUE5pWUlTSlVCQmdQTUtFaXJrTUpxbTg2M0ppcXhKSTJETmRWY0QiLCJtYWMiOiIzNThlMTU5NTU3YzEzYTBmMTZkZjEzY2E3NWQ3ZTc5ZmU5N2U0MDcyMmNkOWUzNTgxOWJkNDgzZDg2NjllYWJkIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:01:42 GMT; Max-Age=7200; path=/; secure; samesite=lax
+Set-Cookie: catfacts_session=eyJpdiI6IjVKZHpIVlBKVDd2MFlUamJ3TFpCblE9PSIsInZhbHVlIjoiYWpHQ1FFU0RhbzlQQUZMZ01DeHgyU2tienRLYXJ5NVl1bmVxekhINU1wdVA5Yy9lblMyT2NXVTVUR1pkNFpmdTlLaGZBRFhUSlNac25sdVJ3WHJiK1QzSGdTcE41TitwUVVaeGZEd3JWQTlxOXB4ZjBGZGk1UUx2M1lOWW5qdnYiLCJtYWMiOiI2MzA3Yzg3MjMwYzFjODliNDVmMjVhOTg0NTExYWU0YmE1Njc2NmY1NTY5NjM3NDIwZDZjYjgxMzVjZTgxNmY3IiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:01:42 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Set-Cookie: wRe7neGt6VLvTxGl1AUYtYYU6KEP5K9LY6hZk60R=eyJpdiI6IjQvN0JEQmNKcmdwSVdpNlVzVDFJa0E9PSIsInZhbHVlIjoiWlBVelRFa1JPUFp2SlNzcHM1VXc4aFFKZm4yMXRTNENQM0UrVUloUkpSaWVrcWlaVCtQbmRnN1JUMmdpNUdscmNLNW5qbmFia3Y1a3hpZjBOamRnWEcrL3dGZjlpckNXV0ZNc2N4U3Z5V1lMQXY0a2lXZmxnMHVlMlRNR3N4ZmVpSm5CY0VvaTV3MVZjUzRFT1N0R1NseEYxNTYrUk1uMmtxVU9uM2taOHJNam1abWExNUJZUW5wNHBBVmdRbTduSlh4bU9TUEoxc2h1R1ZzUzVETldNdE8xYm9vanhSTCtIeVV5TXNOdDNIdm5EenczL3ZXTk9hbjBYdzBiUndZR3pmR1ViUHdlMWpwN1UwYS85K3pwMG44S1pLclhxUGJaRi9LZzNsc3dtc1gyS0pJcjdjZ2lib05ibjBmTEkzdFBrelNibkpmNkFHSGZtRVZuVUN2L3NOT1hJS0hSbGt2aDhxeGpwOEJXUjJXdXBkeERIZ0F4dDFQeGxkSlB0RytJIiwibWFjIjoiNzMwNDE5N2ZhYTM2OWQ5OGVlNmI3NTIwOGFkOGIwNDIxMmI5NTYyMzliMjA0MjVkMzU3OTkzODVmMzBiYzkzOCIsInRhZyI6IiJ9; expires=Fri, 07-Mar-2025 11:01:42 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jEzN7VxFFR2ZonKyodtbzLUwgGKUGySEX7b27girZbF7VFtXPuxnDux2zISNKj51Uy%2FHHCxHs19tAMcoHX7xEvZ58uhPZBi9g40oSqD70Eu%2F66aNFAhiWiITMC3Xjdl5"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c8e8e44bf8e1ae-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=144374&min_rtt=142725&rtt_var=56820&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=791&delivery_rate=27706&cwnd=236&unsent_bytes=0&cid=974573be789f59ea&ts=347&x=0"
+
+{
+    "fact": "Cats are North America’s most popular pets: there are 73 million cats compared to 63 million dogs. Over 30% of households in North America own a cat.",
+    "length": 149
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 07 Mar 2025 09:01:43 GMT
+Content-Type: application/json
+Content-Length: 34
+Connection: keep-alive
+Cache-Control: no-cache, private
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=oG3mtUAnRPSJA6g%2BDXJ2NM4a2FE75BOe%2BXbLkaQEMSHXU00ak4ncJizpB8EITCUCVq4vwRswmUxc8TO%2BO2fzRiypSM7HdA%2BGVN5WHC9uBqcwwQn1SgU2ez0YtzooZOsz"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c8e8ea5845e210-MRS
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=176788&min_rtt=147162&rtt_var=76347&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=792&delivery_rate=28295&cwnd=252&unsent_bytes=0&cid=846f406d4633f803&ts=301&x=0"
+
+{
+    "message": "Not Found",
+    "code": 404
+}
+HTTP/1.1 200 OK
+Date: Fri, 07 Mar 2025 09:05:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+access-control-allow-origin: *
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlMvd3hBby9DMS94S3dIV0RDSExaSmc9PSIsInZhbHVlIjoiTm9heFBlbVJ6QVpnaTdaNTBqSktQOWdCaWNvazVSTXYwRGNjMUF0ZTBQVlNZVE9CMWs5QVo1c2gxM0pkdUwyVUlJSnhnSnNxK3BrbEYrdXlBY2N1Q1ZqbUcwaHdvRlpaaFd5cFV3Mk5oSXNuRU9YbkhuNEJOUEdDdkhoWGVnVjgiLCJtYWMiOiJkZTIzOWFiYzcwZTU4OWQ4ZDZlMWYwMDg4Y2M2OTQzYmU0MGNhODg5Yjc0NjdlMmI3YTY0NGEwMDY1MTVmYjk1IiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:05:14 GMT; Max-Age=7200; path=/; secure; samesite=lax
+Set-Cookie: catfacts_session=eyJpdiI6IlNKajloUDQ5M2dGc1YyTDFZUktVc2c9PSIsInZhbHVlIjoieHZDTzc1aTNQQjUwWUVJaWZsVEtUZndvbHg4YUZqNmVUZGtvUFN1TDZpNitRRWM1U2FsMjQwUUpXaEdtbnFyY1RYRHo3OGphWnFwa296QnFLOVIzakFjeGgxSDdhRFQxMjNQbm9naHE0aUswV21SMHNyZzR1NG02NE5oZSs3SzgiLCJtYWMiOiIzOTEyNTQ5NDMyNWEyOTZiYmMzNjUzMWU2ODlmYWQ0ZWMxNGU0ZjJhNDgwOWY4ZmY1MWZhZGEzZWE5MzRjOTViIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:05:14 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Set-Cookie: sfNujdgv8lGqYZs0OqQoRvoNPEKOifH2Kr5FWmSA=eyJpdiI6InRGeVNUSmxncitzTGpBS2hBcS9yaXc9PSIsInZhbHVlIjoiZnpLL09KTkQ1eDJ6bW96aWlGbk53dWhYUnBpU1NzeU45R3ArZ0l2NU15YnMwMHFxYzd1eWdBcjhVNGpOK3Y2RG9sYXBUbDJWQTVjcnpUSWdydGVmTkx5MWlzRHN3TTJtM2sxUjgrRDR5akIybEpXUWU1enJ5ampUT0ZRT3lOOE15NUsxUUpRVkd5UklwOSt6WlRVK0FmeG1RQm9vMVlLZVE5NjBLcGdwb2h0UFpwSDVSUm5UcnppUXQzM3lDdWhOUnZicU5hcjh0WVFPVW5qTmo5VkVITGhYQW5OUWkzbWxJdS9qc2NEWC9PUEgwY3lVY0VkcldadUQ3NkVjSlZrS05EUC83ZzdVOC8wcHdDelNIMTZFMmEwdHUweU0zdzJBdTh0NEpmdVg3eUliMDBhTHZCZUhzWHFlSEtlMXQ4cFpBdlhsTEFOSk1rYk8wNHhOVmlyeWFWeUpJNjB2ZjVpVlc5azM2Y3RKN2lMM3B2Vm1VemVvU1BRQjNCMU1PY2VvIiwibWFjIjoiM2I2MDUxY2UzZDA2NThlY2MwZDgwMjBmZjQyZjkyZTA5ZTMyMjljNzZkMTg5NTA4Yjg5YWQyZGRiZTNlMDM5YSIsInRhZyI6IiJ9; expires=Fri, 07-Mar-2025 11:05:14 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jPDrsI1QZC67yLG%2Bc7rAk0jUnbbBMuu1XEYO759G4juY0jDHk4ElCus57IXQFDgRy1j5fAm0a4b6yPxTT6TOiZQQfEJ%2BRtieXdwwSAXYjRCkAXzJuuMmG%2B6VpsBWpI0q"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c8ee0d6f0c1681-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=146025&min_rtt=145578&rtt_var=55487&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3117&recv_bytes=791&delivery_rate=27916&cwnd=248&unsent_bytes=0&cid=4f5194a0370f7bde&ts=571&x=0"
+
+{
+    "fact": "A cat sees about 6 times better than a human at night, and needs 1/6 the amount of of light that a human does - it has a layer of extra reflecting cells which absorb light.",
+    "length": 172
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 07 Mar 2025 09:05:15 GMT
+Content-Type: application/json
+Content-Length: 34
+Connection: keep-alive
+Cache-Control: no-cache, private
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=w0K%2BPR%2BRAYLQS1m8tlPXdoE939ExrwV%2BsFv0V0CMbNHln5n4sZtm%2F4smy2HSpWkDTwizrNqVyIMriIA2okcdsYutbdVq9eq62MOpt1NQGtHOmhnmttdckAyZhCWPvMHR"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c8ee15af30e211-MRS
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=170978&min_rtt=166446&rtt_var=71481&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=792&delivery_rate=20542&cwnd=213&unsent_bytes=0&cid=a2239373536a393f&ts=349&x=0"
+
+{
+    "message": "Not Found",
+    "code": 404
+}
+HTTP/1.1 200 OK
+Date: Fri, 07 Mar 2025 09:07:20 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept-Encoding
+Cache-Control: no-cache, private
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 96
+access-control-allow-origin: *
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlRWcmNRRVBzb1YzNzNtVzd5STJYU3c9PSIsInZhbHVlIjoic2xtMXQvQkUwQjg1ZUEvYkl6bnpWSnlQMllOS2xlSGtsNS9VVFlOVkFnSGlVSTl2ZnV5TzMzYldFRTZpWTBEQmFQN3h5USt4YmJ4cll1QmYxNGRvYUNXSHoyYlQ4MmRMMTJNUWVWMzJ4enhDcVR6bytHejVMZm0vNEdEN3hNNFIiLCJtYWMiOiIxYzA2YmNjZjlhMjI4YzBhNWZlNDdlMzQ5OTU0NWNlN2I5ZThjMzJmOWNhYTFhODA0MTBhNGRiYzQyZDQ0OTAzIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:07:20 GMT; Max-Age=7200; path=/; secure; samesite=lax
+Set-Cookie: catfacts_session=eyJpdiI6IkNuYUI1Qi9jUHk4QlRmOGxqSEk3Z3c9PSIsInZhbHVlIjoiUGIwdHpEZTdQWHY2WFN6Tm9QaW8wUVlLYmFhK2RhbHl4ZzhsZDFpWmdveE5SbEZpODlrUFhDc0QvV0hNVHlkVUh5SVZGa0tmNDNhM3ZaanNGRVJpTXZ3bW8vb2U3TkMxZFdFem5QRGJkeHlGRVBkK2gyMzhEYjZKOHQxc2FTZmoiLCJtYWMiOiIwZmM0MGJhMWUwMTZmOGMyZDYxZWNkMzJiZmI0MmM1ODA3MWFlZWRiY2I2NmRmNTc1OWRhYzI2YzEyZmFmMjgxIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:07:20 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Set-Cookie: 8AXmpJsTSVuxDXjeOZnVjYuPtN1fGzY56v0GpNlr=eyJpdiI6Ilg3aWtEMXpOK0F6L1BwWCsrdE9iSkE9PSIsInZhbHVlIjoiazFCY3pDMk16cGJaS1Y0aHJqRm9hazZRVVZRc0xvSXRhbGYzRVdMdGNjMC9iZERJWEhrYm1qenBPTVBud0EzNE0yRmNQUmNLU09ZSGFZY0s4YkR1UXVTU296VDFOVXI5MGZ1OFhRZjFHRUROcWg0SkhiUUkzbEQyM1RiT2phdGJDR2toQVZmaUVrc3MydjdOU1NCcndzRlZHR0lVdkZvUjFrRlU4b0FaMVZMRU9GTVdJWkxLNG9PTDIyc0dSWGlDMWwwc2U4dkdxdE8wSzlqZlNSZHVYUEwxeDNSL3h0V0tVeU8xT3JvTjhLYms4UXBRY0hhRkNtdi9wWklsYUF4RVF3MS9nWVZVcjI1ejUxSXFSWXNXWWFyZFVqTVl0dUxFMXpPTStIUERvVU0zcnhkalZwV2FjQkhRUFc0RW5KSnUvZFhjazJlM203Sm5yWk90WlNHNkZRbmZESXFBZmFQbGVlMk1UQXhRU0VNaFZoQndVWmJQOHBsT24wTjhnNWRtIiwibWFjIjoiZmI2NTIyYWYzNjQ0MjIyM2I3ZmVmZjA2MDkwMjA3ZjhkZjFmODE4YzYzMjk2MzdkZmUwOTU2YjJmOWVmNTkyNyIsInRhZyI6IiJ9; expires=Fri, 07-Mar-2025 11:07:20 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Content-Encoding: gzip
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LyIlHE02QELik56qkd9VRTtJyfFjKpinwQTqvBklcLoNkrHoz5xAGzihi4SYlmgL1yCm6NqEn7DQ7wlKvTpO%2FukwvYzxim12dzz3hV6gwtvAzZR8RYkCbTaTe39cN2Qm"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c8f1238c29b6c4-MRS
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=147523&min_rtt=142838&rtt_var=56911&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3117&recv_bytes=791&delivery_rate=29151&cwnd=229&unsent_bytes=0&cid=761a693ae19d68fa&ts=333&x=0"
+
+{
+    "fact": "In Holland’s embassy in Moscow, Russia, the staff noticed that the two Siamese cats kept meowing and clawing at the walls of the building. Their owners finally investigated, thinking they would find mice. Instead, they discovered microphones hidden by Russian spies. The cats heard the microphones when they turned on.",
+    "length": 318
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 07 Mar 2025 09:07:21 GMT
+Content-Type: application/json
+Content-Length: 34
+Connection: keep-alive
+Cache-Control: no-cache, private
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2BiTeukK75LBX30GjMaHp%2FnT7qRKJqo6Qn%2BHvUCJXW%2F1bd5GbIzlwA%2BEvzFp9uCBpV06nUIOXaZsBWY7DA5WWu%2BUspDgBA2sP8nnH3yUfVko%2Bk0ta9tYHj09T7gRu%2BiXq"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c8f1298b38d8b2-MRS
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=179377&min_rtt=146687&rtt_var=78358&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3117&recv_bytes=792&delivery_rate=28386&cwnd=252&unsent_bytes=0&cid=91ef13f73f0bc8da&ts=514&x=0"
+
+{
+    "message": "Not Found",
+    "code": 404
+}

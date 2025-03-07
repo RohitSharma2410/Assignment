@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="engine.Runner" time="8.372" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="engine.Runner" time="7.992" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/surefire/surefirebooter-20250307113256750_3.jar /Users/rohitsharma/eclipse-workspace/Assignment/target/surefire 2025-03-07T11-32-56_702-jvmRun1 surefire-20250307113256750_1tmp surefire_0-20250307113256750_2tmp"/>
+    <property name="sun.java.command" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/surefire/surefirebooter-20250307143718404_3.jar /Users/rohitsharma/eclipse-workspace/Assignment/target/surefire 2025-03-07T14-37-18_359-jvmRun1 surefire-20250307143718404_1tmp surefire_0-20250307143718404_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/test-classes:/Users/rohitsharma/eclipse-workspace/Assignment/target/classes:/Users/rohitsharma/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rohitsharma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rohitsharma/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rohitsharma/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rohitsharma/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-java/7.21.1/cucumber-java-7.21.1.jar:/Users/rohitsharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-gherkin/7.21.1/cucumber-gherkin-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.21.1/cucumber-gherkin-messages-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/gherkin/31.0.0/gherkin-31.0.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/query/13.2.0/query-13.2.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/datatable/7.21.1/datatable-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-plugin/7.21.1/cucumber-plugin-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/docstring/7.21.1/docstring-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/html-formatter/21.9.0/html-formatter-21.9.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/rohitsharma/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/rohitsharma/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/rohitsharma/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/rohitsharma/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-testng/7.21.1/cucumber-testng-7.21.1.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/surefire/surefirebooter-20250307113256750_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/surefire/surefirebooter-20250307143718404_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1"/>
@@ -60,9 +60,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Positive Scenario to check fact field string length greater than 5&quot;, &quot;This test is to demonstrate assignment for TEG&quot;](1)" classname="engine.Runner" time="2.312">
-    <system-out><![CDATA[null
-Request method:	GET
+  <testcase name="runScenario[&quot;Positive Scenario to check fact field string length greater than 5&quot;, &quot;This test is to demonstrate assignment for TEG&quot;](1)" classname="engine.Runner" time="1.689">
+    <system-out><![CDATA[Request method:	GET
 Request URI:	https://catfact.ninja/fact
 Proxy:			<none>
 Request params:	<none>
@@ -75,32 +74,33 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 07 Mar 2025 06:02:59 GMT
+Date: Fri, 07 Mar 2025 09:07:20 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
+vary: Accept-Encoding
 Cache-Control: no-cache, private
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 91
+x-ratelimit-remaining: 96
 access-control-allow-origin: *
-Set-Cookie: XSRF-TOKEN=eyJpdiI6Imo1UmhlL1BReXdoV1VVcSswZlNuVWc9PSIsInZhbHVlIjoicXNSV0N1NDFDcEY0ZHhyZURndU5NQ2JMU1hNckFVZFBwbDFxc053N1lKSG5uZGVqS1RVUDhxVElRUm0zNWpkK0VKWWZ0U3NnVGFDeGFCRU5LQ054MDJNQklSM3JZWVlMSzROYkMwdkFpMmVIc0dDQzRjN2lobGx3QlAxN3JtdTIiLCJtYWMiOiIwMWFkZjVjMzM3MmJhODFjODAwMDA2ZTk2NGQ5MDVmMzBhMWYzOWM0Y2Q2YTFhYzQzZmRkNGFjYzE3NzNlYzFjIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 08:02:59 GMT; Max-Age=7200; path=/; secure; samesite=lax
-Set-Cookie: catfacts_session=eyJpdiI6IkZSWWVtVkttKzB2Vk1sUEdtWHNOV1E9PSIsInZhbHVlIjoiTVNOcG02N0JodENSSTBVN3FNYTZaN3BoZHVOZmdMVWxvLzFZZUMxWjFYNUR1N25EZmpHV0k0NmV2cTZTMndBOVE1R0dkWnZXaGRtSmhlemNFdGJObnRUZ3FhaVBLQ2Q4Z1ZFTWdyWWdDSU1PbU05UjF0RXlKZ0twdm1HSVdQTm4iLCJtYWMiOiIwZDI5NjYzNzlkMmIwNDU2NTRkZWU2NTk0MmNhOWIwMzYwNmQyYzYzYWI1OTA1ZDA4ODFkODcyYmI0NmQ0ZjY3IiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 08:02:59 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
-Set-Cookie: ExO6IDsfmHD1VBTLMxA4yiKagq2nlavm6iqFPpx1=eyJpdiI6IlNnQzFBOCtHcElWQ3FyazRBWnhndVE9PSIsInZhbHVlIjoiM0lRc2JyUlRpdlRIS25JRjBkbW5QZ3FmWExCSG02OGRPbnYwNTcxVHAwajV6OGxXdHRHbEMrUWlRZGh0dWg0aFdYVFhuRnl3eFpHMmZBRmljdFo2eWhlSkVwWHBubTg3NkxMRjRoR09UbTYxbEswUkdudGlmMVJwRGwxbXQzdy9WbWlIRWZUVUMwWm14K1d6cXFMR2hsV3I2YVJ3bHpLdDBzbGQ2Vlp3bCtDeVNFNFNTMi9CRTFaVlVvY3EvcFJPNWYvTDdIL2xxMUc5ZmJqcUl0MEx3cDdnemhkaWNBTjFaaFY4cy9OM0UxbllISW1ESFRVQjVyVmtscXhGYVVFUGJwM3ZHWDR5OUluQStTZFdpM0xFd2g2S0dsSHIwR21zZ0ZwMTIrdVljbkNmSTFMekRKN0lvTHdUbmpSZ2pXazI2UWQxMkZqcFMxQXY4WmVKUG1ULy9JeGRONW1HL3lPdDN4bmdNRHdKSElXQnV0S3VLS29mRWtxaTB0dmNpM05FIiwibWFjIjoiZDVjY2I3MzAzYWQyOWMxNTg2MjUyOTk0M2I0YTc0YWI1ODkxNzU1NzRlYTViMDdhMTdiNzk0MWFkOGFmNjk3YyIsInRhZyI6IiJ9; expires=Fri, 07-Mar-2025 08:02:59 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlRWcmNRRVBzb1YzNzNtVzd5STJYU3c9PSIsInZhbHVlIjoic2xtMXQvQkUwQjg1ZUEvYkl6bnpWSnlQMllOS2xlSGtsNS9VVFlOVkFnSGlVSTl2ZnV5TzMzYldFRTZpWTBEQmFQN3h5USt4YmJ4cll1QmYxNGRvYUNXSHoyYlQ4MmRMMTJNUWVWMzJ4enhDcVR6bytHejVMZm0vNEdEN3hNNFIiLCJtYWMiOiIxYzA2YmNjZjlhMjI4YzBhNWZlNDdlMzQ5OTU0NWNlN2I5ZThjMzJmOWNhYTFhODA0MTBhNGRiYzQyZDQ0OTAzIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:07:20 GMT; Max-Age=7200; path=/; secure; samesite=lax
+Set-Cookie: catfacts_session=eyJpdiI6IkNuYUI1Qi9jUHk4QlRmOGxqSEk3Z3c9PSIsInZhbHVlIjoiUGIwdHpEZTdQWHY2WFN6Tm9QaW8wUVlLYmFhK2RhbHl4ZzhsZDFpWmdveE5SbEZpODlrUFhDc0QvV0hNVHlkVUh5SVZGa0tmNDNhM3ZaanNGRVJpTXZ3bW8vb2U3TkMxZFdFem5QRGJkeHlGRVBkK2gyMzhEYjZKOHQxc2FTZmoiLCJtYWMiOiIwZmM0MGJhMWUwMTZmOGMyZDYxZWNkMzJiZmI0MmM1ODA3MWFlZWRiY2I2NmRmNTc1OWRhYzI2YzEyZmFmMjgxIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 11:07:20 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Set-Cookie: 8AXmpJsTSVuxDXjeOZnVjYuPtN1fGzY56v0GpNlr=eyJpdiI6Ilg3aWtEMXpOK0F6L1BwWCsrdE9iSkE9PSIsInZhbHVlIjoiazFCY3pDMk16cGJaS1Y0aHJqRm9hazZRVVZRc0xvSXRhbGYzRVdMdGNjMC9iZERJWEhrYm1qenBPTVBud0EzNE0yRmNQUmNLU09ZSGFZY0s4YkR1UXVTU296VDFOVXI5MGZ1OFhRZjFHRUROcWg0SkhiUUkzbEQyM1RiT2phdGJDR2toQVZmaUVrc3MydjdOU1NCcndzRlZHR0lVdkZvUjFrRlU4b0FaMVZMRU9GTVdJWkxLNG9PTDIyc0dSWGlDMWwwc2U4dkdxdE8wSzlqZlNSZHVYUEwxeDNSL3h0V0tVeU8xT3JvTjhLYms4UXBRY0hhRkNtdi9wWklsYUF4RVF3MS9nWVZVcjI1ejUxSXFSWXNXWWFyZFVqTVl0dUxFMXpPTStIUERvVU0zcnhkalZwV2FjQkhRUFc0RW5KSnUvZFhjazJlM203Sm5yWk90WlNHNkZRbmZESXFBZmFQbGVlMk1UQXhRU0VNaFZoQndVWmJQOHBsT24wTjhnNWRtIiwibWFjIjoiZmI2NTIyYWYzNjQ0MjIyM2I3ZmVmZjA2MDkwMjA3ZjhkZjFmODE4YzYzMjk2MzdkZmUwOTU2YjJmOWVmNTkyNyIsInRhZyI6IiJ9; expires=Fri, 07-Mar-2025 11:07:20 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 x-content-type-options: nosniff
+Content-Encoding: gzip
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=f8HFZGWU%2FWel2tvQLU9nYzknaW86SORvBTq7OD0hIO75EFtCVovn0oiGsCvjsp7qe%2BY72viMSqd10pRBFBPGCr42Xq%2BOs6QnjZSqAbrNdY9TmKFhR3%2BCxKM9EBUA7cf%2F"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LyIlHE02QELik56qkd9VRTtJyfFjKpinwQTqvBklcLoNkrHoz5xAGzihi4SYlmgL1yCm6NqEn7DQ7wlKvTpO%2FukwvYzxim12dzz3hV6gwtvAzZR8RYkCbTaTe39cN2Qm"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 91c7e3151d51e1e5-MRS
-Content-Encoding: gzip
+CF-RAY: 91c8f1238c29b6c4-MRS
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=208109&min_rtt=195384&rtt_var=98719&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=791&delivery_rate=14011&cwnd=248&unsent_bytes=0&cid=19f263ffe5bef15d&ts=712&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=147523&min_rtt=142838&rtt_var=56911&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3117&recv_bytes=791&delivery_rate=29151&cwnd=229&unsent_bytes=0&cid=761a693ae19d68fa&ts=333&x=0"
 
 {
-    "fact": "Tylenol and chocolate are both poisionous to cats.",
-    "length": 50
+    "fact": "In Holland’s embassy in Moscow, Russia, the staff noticed that the two Siamese cats kept meowing and clawing at the walls of the building. Their owners finally investigated, thinking they would find mice. Instead, they discovered microphones hidden by Russian spies. The cats heard the microphones when they turned on.",
+    "length": 318
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
@@ -108,9 +108,8 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Negavtive Scenario to check response code 404&quot;, &quot;This test is to demonstrate assignment for TEG&quot;](2)" classname="engine.Runner" time="0.692">
-    <system-out><![CDATA[null
-Request method:	GET
+  <testcase name="runScenario[&quot;Negavtive Scenario to check response code 404&quot;, &quot;This test is to demonstrate assignment for TEG&quot;](2)" classname="engine.Runner" time="0.865">
+    <system-out><![CDATA[Request method:	GET
 Request URI:	https://catfact.ninja/fact1
 Proxy:			<none>
 Request params:	<none>
@@ -123,18 +122,18 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Date: Fri, 07 Mar 2025 06:03:00 GMT
+Date: Fri, 07 Mar 2025 09:07:21 GMT
 Content-Type: application/json
 Content-Length: 34
 Connection: keep-alive
 Cache-Control: no-cache, private
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=gGbPxsxnIJIzDkLephMs8u%2FI9k1rKkGvWIkBlvW13WqLVhz5f267%2FbKKwTcz5UYwwm%2FRV50NJIf3%2FxcaxUv%2BC%2BFfwVNDNaR1NFMyk%2F3bI3Y09gbulbqApY2hyQJfsnAP"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2BiTeukK75LBX30GjMaHp%2FnT7qRKJqo6Qn%2BHvUCJXW%2F1bd5GbIzlwA%2BEvzFp9uCBpV06nUIOXaZsBWY7DA5WWu%2BUspDgBA2sP8nnH3yUfVko%2Bk0ta9tYHj09T7gRu%2BiXq"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 91c7e31d9aab1305-MRS
+CF-RAY: 91c8f1298b38d8b2-MRS
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=183035&min_rtt=150672&rtt_var=79619&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=792&delivery_rate=27636&cwnd=249&unsent_bytes=0&cid=555834a0cf93a307&ts=303&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=179377&min_rtt=146687&rtt_var=78358&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3117&recv_bytes=792&delivery_rate=28386&cwnd=252&unsent_bytes=0&cid=91ef13f73f0bc8da&ts=514&x=0"
 
 {
     "message": "Not Found",
