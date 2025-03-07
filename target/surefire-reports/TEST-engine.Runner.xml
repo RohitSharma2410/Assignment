@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="engine.Runner" time="8.372" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/test-classes:/Users/rohitsharma/eclipse-workspace/Assignment/target/classes:/Users/rohitsharma/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rohitsharma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rohitsharma/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rohitsharma/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rohitsharma/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-java/7.21.1/cucumber-java-7.21.1.jar:/Users/rohitsharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-gherkin/7.21.1/cucumber-gherkin-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.21.1/cucumber-gherkin-messages-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/gherkin/31.0.0/gherkin-31.0.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/query/13.2.0/query-13.2.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/datatable/7.21.1/datatable-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-plugin/7.21.1/cucumber-plugin-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/docstring/7.21.1/docstring-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/html-formatter/21.9.0/html-formatter-21.9.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/rohitsharma/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/rohitsharma/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/rohitsharma/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/rohitsharma/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-testng/7.21.1/cucumber-testng-7.21.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/surefire/surefirebooter-20250307113256750_3.jar /Users/rohitsharma/eclipse-workspace/Assignment/target/surefire 2025-03-07T11-32-56_702-jvmRun1 surefire-20250307113256750_1tmp surefire_0-20250307113256750_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/test-classes:/Users/rohitsharma/eclipse-workspace/Assignment/target/classes:/Users/rohitsharma/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rohitsharma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rohitsharma/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rohitsharma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rohitsharma/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rohitsharma/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/rohitsharma/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/rohitsharma/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/Users/rohitsharma/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-java/7.21.1/cucumber-java-7.21.1.jar:/Users/rohitsharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-gherkin/7.21.1/cucumber-gherkin-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.21.1/cucumber-gherkin-messages-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/gherkin/31.0.0/gherkin-31.0.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/query/13.2.0/query-13.2.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/datatable/7.21.1/datatable-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-plugin/7.21.1/cucumber-plugin-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/docstring/7.21.1/docstring-7.21.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/html-formatter/21.9.0/html-formatter-21.9.0.jar:/Users/rohitsharma/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/rohitsharma/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/rohitsharma/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/rohitsharma/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/rohitsharma/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/rohitsharma/.m2/repository/io/cucumber/cucumber-testng/7.21.1/cucumber-testng-7.21.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rohitsharma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/rohitsharma/eclipse-workspace/Assignment"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/rohitsharma/eclipse-workspace/Assignment/target/surefire/surefirebooter-20250307113256750_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1"/>
+    <property name="user.name" value="rohitsharma"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/rohitsharma/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/mw/6crxb4g55cg4gvf9b81gtsf00000gn/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/rohitsharma/eclipse-workspace/Assignment"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rohitsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Positive Scenario to check fact field string length greater than 5&quot;, &quot;This test is to demonstrate assignment for TEG&quot;](1)" classname="engine.Runner" time="2.312">
+    <system-out><![CDATA[null
+Request method:	GET
+Request URI:	https://catfact.ninja/fact
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 07 Mar 2025 06:02:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 91
+access-control-allow-origin: *
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Imo1UmhlL1BReXdoV1VVcSswZlNuVWc9PSIsInZhbHVlIjoicXNSV0N1NDFDcEY0ZHhyZURndU5NQ2JMU1hNckFVZFBwbDFxc053N1lKSG5uZGVqS1RVUDhxVElRUm0zNWpkK0VKWWZ0U3NnVGFDeGFCRU5LQ054MDJNQklSM3JZWVlMSzROYkMwdkFpMmVIc0dDQzRjN2lobGx3QlAxN3JtdTIiLCJtYWMiOiIwMWFkZjVjMzM3MmJhODFjODAwMDA2ZTk2NGQ5MDVmMzBhMWYzOWM0Y2Q2YTFhYzQzZmRkNGFjYzE3NzNlYzFjIiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 08:02:59 GMT; Max-Age=7200; path=/; secure; samesite=lax
+Set-Cookie: catfacts_session=eyJpdiI6IkZSWWVtVkttKzB2Vk1sUEdtWHNOV1E9PSIsInZhbHVlIjoiTVNOcG02N0JodENSSTBVN3FNYTZaN3BoZHVOZmdMVWxvLzFZZUMxWjFYNUR1N25EZmpHV0k0NmV2cTZTMndBOVE1R0dkWnZXaGRtSmhlemNFdGJObnRUZ3FhaVBLQ2Q4Z1ZFTWdyWWdDSU1PbU05UjF0RXlKZ0twdm1HSVdQTm4iLCJtYWMiOiIwZDI5NjYzNzlkMmIwNDU2NTRkZWU2NTk0MmNhOWIwMzYwNmQyYzYzYWI1OTA1ZDA4ODFkODcyYmI0NmQ0ZjY3IiwidGFnIjoiIn0%3D; expires=Fri, 07-Mar-2025 08:02:59 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Set-Cookie: ExO6IDsfmHD1VBTLMxA4yiKagq2nlavm6iqFPpx1=eyJpdiI6IlNnQzFBOCtHcElWQ3FyazRBWnhndVE9PSIsInZhbHVlIjoiM0lRc2JyUlRpdlRIS25JRjBkbW5QZ3FmWExCSG02OGRPbnYwNTcxVHAwajV6OGxXdHRHbEMrUWlRZGh0dWg0aFdYVFhuRnl3eFpHMmZBRmljdFo2eWhlSkVwWHBubTg3NkxMRjRoR09UbTYxbEswUkdudGlmMVJwRGwxbXQzdy9WbWlIRWZUVUMwWm14K1d6cXFMR2hsV3I2YVJ3bHpLdDBzbGQ2Vlp3bCtDeVNFNFNTMi9CRTFaVlVvY3EvcFJPNWYvTDdIL2xxMUc5ZmJqcUl0MEx3cDdnemhkaWNBTjFaaFY4cy9OM0UxbllISW1ESFRVQjVyVmtscXhGYVVFUGJwM3ZHWDR5OUluQStTZFdpM0xFd2g2S0dsSHIwR21zZ0ZwMTIrdVljbkNmSTFMekRKN0lvTHdUbmpSZ2pXazI2UWQxMkZqcFMxQXY4WmVKUG1ULy9JeGRONW1HL3lPdDN4bmdNRHdKSElXQnV0S3VLS29mRWtxaTB0dmNpM05FIiwibWFjIjoiZDVjY2I3MzAzYWQyOWMxNTg2MjUyOTk0M2I0YTc0YWI1ODkxNzU1NzRlYTViMDdhMTdiNzk0MWFkOGFmNjk3YyIsInRhZyI6IiJ9; expires=Fri, 07-Mar-2025 08:02:59 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=f8HFZGWU%2FWel2tvQLU9nYzknaW86SORvBTq7OD0hIO75EFtCVovn0oiGsCvjsp7qe%2BY72viMSqd10pRBFBPGCr42Xq%2BOs6QnjZSqAbrNdY9TmKFhR3%2BCxKM9EBUA7cf%2F"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c7e3151d51e1e5-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=208109&min_rtt=195384&rtt_var=98719&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=791&delivery_rate=14011&cwnd=248&unsent_bytes=0&cid=19f263ffe5bef15d&ts=712&x=0"
+
+{
+    "fact": "Tylenol and chocolate are both poisionous to cats.",
+    "length": 50
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Negavtive Scenario to check response code 404&quot;, &quot;This test is to demonstrate assignment for TEG&quot;](2)" classname="engine.Runner" time="0.692">
+    <system-out><![CDATA[null
+Request method:	GET
+Request URI:	https://catfact.ninja/fact1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 07 Mar 2025 06:03:00 GMT
+Content-Type: application/json
+Content-Length: 34
+Connection: keep-alive
+Cache-Control: no-cache, private
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=gGbPxsxnIJIzDkLephMs8u%2FI9k1rKkGvWIkBlvW13WqLVhz5f267%2FbKKwTcz5UYwwm%2FRV50NJIf3%2FxcaxUv%2BC%2BFfwVNDNaR1NFMyk%2F3bI3Y09gbulbqApY2hyQJfsnAP"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 91c7e31d9aab1305-MRS
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=183035&min_rtt=150672&rtt_var=79619&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3118&recv_bytes=792&delivery_rate=27636&cwnd=249&unsent_bytes=0&cid=555834a0cf93a307&ts=303&x=0"
+
+{
+    "message": "Not Found",
+    "code": 404
+}
+]]></system-out>
+  </testcase>
+</testsuite>
